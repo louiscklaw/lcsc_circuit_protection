@@ -1,0 +1,53 @@
+(module "D5V0P4B5LP08-7" (layer F.Cu) (tedit 620BF3AE)
+  (descr "D5V0P4B5LP08-7, X2-DFN0808-4 ESD Protection Devices ROHS")
+  (tags "X2-DFN0808-4 ESD Protection Devices ROHS, Circuit Protection, ESD Protection Devices")
+  (fp_text reference REF** (at 0 -2.550013) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value D5V0P4B5LP08-7 (at 0 2.550013) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -0.359995 0.769901) (end -0.309957 0.769901) (layer F.SilkS) (width 0.1))
+  (fp_circle (center -0.6508 0.869952) (end -0.620803 0.869952) (layer F.SilkS) (width 0.059995))
+  (fp_line (start -0.6 -0.550013) (end -0.6 0.550013) (layer F.SilkS) (width 0.1016))
+  (fp_line (start 0.6 -0.550013) (end -0.6 -0.550013) (layer F.SilkS) (width 0.1))
+  (fp_line (start -0.6 0.550013) (end 0.6 0.550013) (layer F.SilkS) (width 0.1016))
+  (fp_line (start 0.6 -0.550013) (end 0.6 0.550013) (layer F.SilkS) (width 0.1))
+  (pad 4 smd custom (at 0.300152 0.3) (size 1.524003 1.524003) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.200076 0.100076) (xy -0.200076 -0.011913) (xy 0.037922 -0.249911) (xy 0.149936 -0.249911)
+         (xy 0.149936 0.100076)) (width 0))
+    ))
+  (pad 3 smd custom (at 0.300152 -0.299949) (size 1.524003 1.524003) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.200076 -0.099873) (xy 0.149936 -0.099873) (xy 0.149936 0.25014) (xy 0.037922 0.25014)
+         (xy -0.200076 0.012116)) (width 0))
+    ))
+  (pad 2 smd custom (at -0.300051 -0.299949) (size 1.524003 1.524003) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.149759 -0.099873) (xy 0.200229 -0.099873) (xy 0.200229 0.012116) (xy -0.03777 0.25014)
+         (xy -0.149759 0.25014)) (width 0))
+    ))
+  (pad 1 smd custom (at -0.300051 0.3) (size 1.524003 1.524003) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.149759 -0.249911) (xy -0.029769 -0.249911) (xy 0.200229 -0.011913) (xy 0.200229 0.100076)
+         (xy -0.149759 0.100076)) (width 0))
+    ))
+  (pad 5 smd rect (at -0.000076 0.000025 45) (size 0.350013 0.350013) (layers F.Cu F.Mask F.Paste))
+  (fp_text user REF** (at 0 4.550013) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (model Z:\footprint/lcsc_circuit_protection/packages3d/D5V0P4B5LP08-7.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

@@ -1,0 +1,38 @@
+(module "PESD5V0U2BM,315" (layer F.Cu) (tedit 620BF7C9)
+  (descr "PESD5V0U2BM, Extended")
+  (tags "Extended, Circuit Protection, ESD Protection Devices")
+  (fp_text reference REF** (at 0 -2.180061) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PESD5V0U2BM,315 (at 0 2.180061) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0.512827 0.311379) (end 0.542799 0.311379) (layer F.SilkS) (width 0.059995))
+  (pad 1 smd custom (at 0.350013 0.180061) (size 0.259944 0.159995) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.129997 0.08001) (xy -0.129997 0.08001) (xy -0.129997 -0.08001) (xy 0.129997 -0.08001)) (width 0))
+    ))
+  (pad 2 smd custom (at 0.350013 -0.180061) (size 0.259944 0.160046) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.129997 0.08001) (xy -0.129997 0.08001) (xy -0.129997 -0.08001) (xy 0.129997 -0.08001)) (width 0))
+    ))
+  (pad 3 smd custom (at -0.350013 -0.005105) (size 0.26002 0.509982) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.129997 0.254991) (xy -0.129997 0.254991) (xy -0.129997 -0.254991) (xy 0.129997 -0.254991)) (width 0))
+    ))
+  (fp_poly (pts (xy -0.649987 -0.44986) (xy 0.649987 -0.44986) (xy 0.649987 0.450064) (xy -0.649987 0.450064)) (layer F.SilkS) (width 0.12))
+  (fp_text user REF** (at 0 4.180061) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (model Z:\footprint/lcsc_circuit_protection/packages3d/PESD5V0U2BM,315.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
